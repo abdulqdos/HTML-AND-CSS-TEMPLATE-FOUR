@@ -1,0 +1,456 @@
+:root {
+    --font-style-: "Font Awesome 5 Free";
+}
+/* Start box */
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .d-none-phone {
+        display: none;
+    }
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+.box-style {
+    background-color: white; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    -o-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 6px;
+}
+/* End box */
+/* Start padding + margin */
+.p-5 {
+    padding: 5px;
+}
+
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+
+.pt-5 {
+    padding-top: 5px
+}
+
+.pt-10 {
+    padding-top: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-10 {
+    padding-left: 15px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-less-10 {
+    margin-top: -10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mr-less-5 {
+    margin-right: -5px;
+} 
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-80 {
+    margin-right: 80px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-80 {
+    margin-left: 80px;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-13 {
+    border-radius: 13px;
+}
+.rad-50 {
+    border-radius: 50%;
+}
+
+.b-none {
+    border: none;
+}
+
+.b-basic {
+    border: 1px solid #eee;
+}
+
+.b-basic-bottom {
+    border-bottom: 1px solid #eee;
+}
+/* End padding + margin */
+/* Start background */
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+/* End background */
+/* Start position */
+.p-relative {
+    position: relative;
+}
+/* End position */
+/* Start txt */ 
+.txt-c {
+    text-align: center;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+.w-bold {
+    font-weight: bold;
+}
+/* End text */
+/* Start color */
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-blue {
+    color: #0075ff;
+}
+
+.bg-blue {
+    background-color: #0075ff;
+}
+
+.background-light-blue {
+    background-color: rgb(0 117 255 / 20%);
+}
+
+.c-orange {
+    color: #f59e0b;
+}
+
+.bg-orange {
+    background-color: #f59e0b;
+}
+
+.background-light-orange {
+    background-color: rgb(245 158 11 / 20%);;
+}
+
+.c-green {
+    color: #22c55e;
+}
+
+.bg-green {
+    background-color: #22c55e;
+}
+
+.background-light-green {
+    background-color: rgb(34 197 94 / 20%);
+}
+
+.c-red {
+    color: #f44336;
+}
+
+.background-light-red {
+    background-color: rgb(255 0 0 / 20%);
+}
+.bg-red {
+    background-color: #f44336;
+}
+.c-grey {
+    color: #888;
+}
+/* end color */
+/* Start efects */
+.done {
+    opacity: .2;
+}
+
+
+/* End efects */
+/* Start text */
+.throught-text {
+    text-decoration: line-through;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.txt-cap {
+    text-transform: capitalize;
+}
+
+.normal {
+    text-transform: none;
+}
+
+.op-4 {
+    opacity: .4;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+@media (max-width: 767px) {
+    .fs-13-phone {
+        font-size: 13px;
+    }
+}
+/* End text */
+/* Start Spical shape */
+.toggle-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+.toggle-switch {
+    position: relative;
+    background-color: #ccc;
+    width: 88px;
+    height: 34px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-switch::before {
+    font-family: var(--font-style-);
+    content: "\f00d";
+    font-weight: 900;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    left: 3px;
+    top: 2px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    transition: .3s;
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+    background-color: #0075ff;
+}
+
+.toggle-checkbox:checked + .toggle-switch::before {
+    content: "\f00c";
+    color: #0075ff;
+    transform: translateX(52px);
+}
+
+@media (max-width: 767px) {
+    .toggle-switch {
+        width: 70px;
+        height: 25px;
+    }
+    .toggle-switch::before {
+        width: 20px;
+        height: 20px;
+    }
+    .toggle-checkbox:checked + .toggle-switch::before {
+    transform: translateX(44px);
+    }
+}
+
+.toggle-checkbox-mini {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+
+.toggle-switch-mini {
+    position: relative;
+    background-color: #ccc;
+    width: 100px;
+    height: 22px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-switch-mini::before {
+    font-family: var(--font-style-);
+    content: "\f00d";
+    font-weight: 900;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 16px;
+    left: 3px;
+    top: 2px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    transition: .3s;
+}
+
+.toggle-checkbox-mini:checked + .toggle-switch-mini {
+    background-color: #0075ff;
+}
+
+.toggle-checkbox-mini:checked + .toggle-switch-mini::before {
+    content: "\f00c";
+    color: #0075ff;
+    transform: translateX(73px);
+}
+/* End Spical shape */
+/* Start form desgin */
+.holder-fs-14::placeholder {
+    font-size: 14px;
+}
+/* End form desgin */
+/* Start timing */
+.tran-5s {
+    transition: .5s;
+}
+/* End timing */
